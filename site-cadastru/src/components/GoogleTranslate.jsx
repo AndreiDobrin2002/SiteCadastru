@@ -117,8 +117,8 @@ export default function GoogleTranslateDropdown() {
                     borderRadius: "6px",
                     padding: "5px 10px",
                     backgroundColor: scrolled
-                        ? "#0d1b2a" // ca navbar.scrolled
-                        : "rgba(13, 27, 42, 0.6)", // ca navbar.transparent
+                        ? "#1d931d" // ca navbar.scrolled
+                        : "rgba(41, 64, 41, 0.6)", // ca navbar.transparent
                     color: "#fff",
                     transition: "background-color 0.3s ease",
                 }}
@@ -140,7 +140,7 @@ export default function GoogleTranslateDropdown() {
                         borderRadius: "6px",
                         boxShadow: "0 2px 6px rgba(0,0,0,0.25)",
                         zIndex: 10,
-                        backgroundColor: scrolled ? "#0d1b2a" : "rgba(13, 27, 42, 0.6)",
+                        backgroundColor: scrolled ? "#1d931d" : "rgba(41, 64, 41, 0.6)",
                         color: "#fff",
                         transition: "background-color 0.3s ease",
                     }}

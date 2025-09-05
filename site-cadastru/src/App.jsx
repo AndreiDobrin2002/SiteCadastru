@@ -9,7 +9,7 @@ import Intermedieri from "./pages/Intermedieri.jsx";
 import Logistica from "./pages/Logistica.jsx";
 import Contact from "./pages/Contact.jsx";
 import Galerie from './pages/Galerie.jsx';
-import Comanda from "./pages/Comanda.jsx";
+import Oferta from "./pages/Oferta.jsx";
 
 function App() {
     return (
@@ -26,7 +26,7 @@ function App() {
                     <Route path="/transport-auto" element={<TransportAuto />} />
                     <Route path="/intermedieri-transport" element={<Intermedieri />} />
                     <Route path="/logistica-depozitare" element={<Logistica />} />
-                    <Route path="/comanda" element={<Comanda />} />
+                    <Route path="/oferta" element={<Oferta />} />
                 </Routes>
             </div>
         </Router>

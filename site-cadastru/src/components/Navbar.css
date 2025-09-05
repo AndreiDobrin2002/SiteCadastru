@@ -15,11 +15,11 @@
 }
 
 .navbar.transparent {
-    background-color: rgba(13, 27, 42, 0.6);
+    background-color: rgba(41, 64, 41, 0.6); /* verde închis transparent */
 }
 
 .navbar.scrolled {
-    background-color: #0d1b2a;
+    background-color: #1d931d;
 }
 
 .logo {
@@ -41,7 +41,7 @@
 }
 
 .nav-links li a:hover {
-    color: #00b4d8;
+    color: #b6942f; /* verde lime */
 }
 
 /* Burger menu button */
@@ -86,7 +86,7 @@
         top: 100%;
         right: 0;
         width: 100%;
-        background-color: #0d1b2a;
+        background-color: #1d931d;
         flex-direction: column;
         align-items: flex-start;
         padding: 1rem 2rem;
@@ -116,7 +116,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #0d1b2a;
+    background-color: #1d931d;
     list-style: none;
     padding: 0.5rem 0;
     margin: 0;
@@ -137,8 +137,8 @@
 }
 
 .dropdown-menu li a:hover {
-    background-color: #1a2a3a;
-    color: #00b4d8;
+    background-color: #1d931d;
+    color: #b6942f;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -147,6 +147,6 @@
 
 /* Link activ - subliniere pagina curentă */
 .nav-links li a.active {
-    border-bottom: 3px solid #00b4d8;
+    border-bottom: 3px solid #b6942f;
 }
 

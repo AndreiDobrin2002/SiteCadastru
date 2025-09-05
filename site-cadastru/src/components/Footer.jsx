@@ -12,8 +12,8 @@ const Footer = () => {
                 <div className="footer-column">
                     <img src={logo} alt="Logo DejTrans" className="footer-logo"/>
                     <p className="footer-description">
-                        Best Ride Express este o companie cu peste 8 ani de experiență în transport auto și logistică.
-                        Oferim servicii de calitate în România și la nivel internațional.
+                        Cirlioru Ionut PFA este o companie cu peste 12 ani de experiență în cadastru și intabulări.
+                        Oferim servicii de calitate în Vrancea, atât în mediul urban cât și în rural
                     </p>
                 </div>
 
@@ -25,7 +25,7 @@ const Footer = () => {
                         <li><a href="/despre">Despre</a></li>
                         <li><a href="/site-cadastru/src/components/Servicii">Servicii</a></li>
                         <li><a href="/galerie">Galerie</a></li>
-                        <li><a href="/comanda">Comandă</a></li>
+                        <li><a href="/oferta">Ofertă</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
@@ -33,14 +33,14 @@ const Footer = () => {
                 {/* Coloana 3 - Contact */}
                 <div className="footer-column">
                     <h4>Contact</h4>
-                    <p>📍 Bulevardul Unirii 24,<br/>Focșani 620172, România</p>
+                    <p>📍 Strada Timotei Cipariu 4,<br/>Focșani 620004, România</p>
                     <p>📞 <a href="tel:+40737553140">+40 737 553 140</a></p>
-                    <p>✉️ <a href="mailto:office@bestrideexpress.ro">office@bestrideexpress.ro</a></p>
+                    <p>✉️ <a href="mailto:andreidobrin12@gmail.com">andreidobrin12@gmail.com</a></p>
                 </div>
             </div>
 
             <div className="footer-bottom">
-                <p>&copy; {new Date().getFullYear()} Best Ride Express. Toate drepturile rezervate.</p>
+                <p>&copy; {new Date().getFullYear()} Cirlioru Ionut PFA. Toate drepturile rezervate.</p>
                 <div className="social-icons">
                     <a
                         href="https://www.facebook.com/profile.php?id=100064175078737&locale=ro_RO"

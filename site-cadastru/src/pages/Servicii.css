@@ -41,7 +41,7 @@
 .serviciu-icon {
     font-size: 3.5rem;
     margin-bottom: 20px;
-    color: #0077cc;
+    color: #7c6017;
 }
 
 .serviciu-title {
@@ -59,7 +59,7 @@
 
 .servicii-cta {
     text-align: center;
-    background: #0077cc;
+    background: #7c6017;
     color: white;
     padding: 30px 20px;
     border-radius: 12px;
@@ -122,13 +122,13 @@
     display: inline-block;
     margin-top: 15px;
     font-weight: 500;
-    color: #0077cc;
+    color: #7c6017;
     font-size: 1rem;
     transition: color 0.2s ease;
 }
 
 .serviciu-link:hover {
-    color: #004a99;
+    color: #7c6017;
 }
 
 .serviciu-section {

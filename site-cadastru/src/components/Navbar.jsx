@@ -55,7 +55,7 @@ const Navbar = () => {
                 </li>
 
                 <li><NavLink to="/galerie" onClick={closeMenu}>Galerie</NavLink></li>
-                <li><NavLink to="/comanda" onClick={closeMenu}>Comandă</NavLink></li>
+                <li><NavLink to="/oferta" onClick={closeMenu}>Ofertă</NavLink></li>
                 <li><NavLink to="/contact" onClick={closeMenu}>Contact</NavLink></li>
             </ul>
 

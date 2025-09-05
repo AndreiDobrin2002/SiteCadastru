@@ -24,7 +24,7 @@ const Contact = () => {
         form.append("mesaj", formData.message);
         form.append("_captcha", "false");
 
-        fetch("https://formsubmit.co/0cc1c5905bff6b76ffa042c60e97684c", {
+        fetch("https://formsubmit.co/andreidobrin12@gmail.com", {
 
             method: "POST",
             body: form,
@@ -59,7 +59,7 @@ const Contact = () => {
             <div className="contact-intro">
                 <p>
                     Ai o întrebare despre serviciile noastre?
-                    Suntem aici să te ajutăm cu orice întrebări sau nevoi legate de transportul auto.
+                    Suntem aici să te ajutăm cu orice întrebări sau nevoi legate despre cadastru și intabulări.
                 </p>
                 <p>
                     Ne angajăm să răspundem prompt și să oferim soluții adaptate nevoilor tale.

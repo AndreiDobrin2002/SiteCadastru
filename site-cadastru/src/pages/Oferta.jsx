@@ -2,15 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./Comanda.css";
 import Footer from "../components/Footer.jsx";
 
-const Comanda = () => {
+const Oferta = () => {
     const [formData, setFormData] = useState({
         name: "",
         phone: "",
         email: "",
-        from: "",
-        to: "",
-        carType: "",
-        carCondition: "",
+        city: "",
+        typeService: "",
         details: "",
     });
 
@@ -25,17 +23,15 @@ const Comanda = () => {
 
         const form = new FormData();
         form.append("_template", "table");  // Aici e cheia pentru tabel
-        form.append("Tip autovehicul", formData.carType);
-        form.append("Stare autovehicul", formData.carCondition);
-        form.append("Locul de preluare", formData.from);
-        form.append("Destinația", formData.to);
+        form.append("Serviciul", formData.typeService);
+        form.append("Localitatea", formData.city);
         form.append("Nume", formData.name);
         form.append("Telefon", formData.phone);
         form.append("Email", formData.email);
         form.append("Detalii suplimentare", formData.details);
         form.append("_captcha", "false");
 
-        fetch("https://formsubmit.co/69edc200a3fdbadca0f072fcb65f6cbf", {
+        fetch("https://formsubmit.co/andreidobrin12@gmail.com", {
             method: "POST",
             body: form,
         })
@@ -46,10 +42,8 @@ const Comanda = () => {
                         name: "",
                         phone: "",
                         email: "",
-                        from: "",
-                        to: "",
-                        carType: "",
-                        carCondition: "",
+                        city: "",
+                        typeService: "",
                         details: "",
                     });
                 } else {
@@ -73,46 +67,30 @@ const Comanda = () => {
 
     return (
         <div className="comanda-page">
-            <h1>Comandă transport auto</h1>
+            <h1>Solicită ofertă</h1>
             <div className="comanda-intro">
                 <p>
-                    Completează formularul de mai jos pentru a plasa o comandă rapidă.
+                    Completează formularul de mai jos pentru a solicita rapid o ofertă.
                     Te vom contacta în cel mai scurt timp posibil!
                 </p>
             </div>
 
             <form className="comanda-form" onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    name="carType"
-                    placeholder="Tipul autovehiculului *"
-                    value={formData.carType}
-                    onChange={handleChange}
-                    required
-                />
                 <select
-                    name="carCondition"
-                    value={formData.carCondition}
+                    name="typeService"
+                    value={formData.typeService}
                     onChange={handleChange}
                     required
                 >
-                    <option value="">Selectează starea autovehiculului *</option>
-                    <option value="Auto funcțional">Auto funcțional</option>
-                    <option value="Auto nefuncțional">Auto nefuncțional</option>
+                    <option value="">Selectează serviciul *</option>
+                    <option value="Cadastru">Cadastru</option>
+                    <option value="Intabulare">Intabulare</option>
                 </select>
                 <input
                     type="text"
-                    name="from"
-                    placeholder="Locul de preluare *"
-                    value={formData.from}
-                    onChange={handleChange}
-                    required
-                />
-                <input
-                    type="text"
-                    name="to"
-                    placeholder="Destinația *"
-                    value={formData.to}
+                    name="city"
+                    placeholder="Localitatea *"
+                    value={formData.city}
                     onChange={handleChange}
                     required
                 />
@@ -161,4 +139,4 @@ const Comanda = () => {
     );
 };
 
-export default Comanda;
+export default Oferta;

@@ -1,5 +1,5 @@
 .service-cta {
-    background-color: #0d1b2a;
+    background-color: #7c6017;
     padding: 40px 60px;
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@
 
 .service-cta-button:hover {
     background-color: white;
-    color: #0d1b2a;
+    color: #7c6017;
 }
 
 .service-cta-button .arrow {

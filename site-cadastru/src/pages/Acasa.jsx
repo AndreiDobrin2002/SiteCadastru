@@ -19,15 +19,14 @@ import ServicetCTA from "../components/ServiceCTA.jsx";
 const images = [img1, img2, img3];
 
 const navItems = [
-    { icon: icon1, label: "TRANSPORT AUTO" },
-    { icon: icon2, label: "INTERMEDIERI TRANSPORT" },
-    { icon: icon3, label: "LOGISTICA SI DEPOZITARE" },
+    { icon: icon1, label: "CADASTRU & INTABULARE" },
+    { icon: icon2, label: "MĂSURĂTORI TOPOGRAFICE" },
+    { icon: icon3, label: "EXPERTIZE TEHNICE" },
 ];
 
 export default function Acasa() {
     const [currentImage, setCurrentImage] = useState(0);
 
-    // funcție pentru schimbarea imaginii cu resetarea intervalului
     const handleImageChange = (index) => {
         setCurrentImage(index);
     };
@@ -39,10 +38,11 @@ export default function Acasa() {
         }, 5000);
 
         return () => clearInterval(interval);
-    }, [currentImage]); // 👈 acum se resetează când se schimbă imaginea
+    }, [currentImage]);
 
     return (
         <>
+            {/* Slideshow + bara servicii */}
             <div className="acasa-container">
                 <div
                     className="image-display"
@@ -55,41 +55,46 @@ export default function Acasa() {
                             className={`nav-button ${currentImage === index ? "active" : ""}`}
                             onClick={() => handleImageChange(index)}
                         >
-                            <img src={item.icon} alt={item.label} className="new-icon-style"/>
+                            <img src={item.icon} alt={item.label} className="new-icon-style" />
                             <span>{item.label}</span>
                         </button>
                     ))}
                 </div>
             </div>
 
+            {/* Despre firmă */}
             <div className="firma-container">
                 <div className="firma-text">
                     <h2>Despre firma noastră</h2>
                     <p>
-                        Suntem o companie specializată în transport auto intern și internațional,
-                        oferind servicii rapide și sigure. Cu o flotă modernă și echipă dedicată,
-                        asigurăm livrarea eficientă a vehiculelor în cele mai bune condiții.
+                        Suntem o companie autorizată în domeniul <strong>cadastrului și
+                        măsurătorilor topografice</strong>, oferind servicii profesionale
+                        pentru persoane fizice, companii și instituții publice.
                     </p>
                     <p>
-                        De asemenea, oferim servicii de intermediere transport, logistică și depozitare. Ne mândrim cu profesionalismul și experiența noastră în
-                        domeniu, având ca obiectiv principal satisfacția clienților noștri.
-                        Colaborăm cu parteneri de încredere și folosim cele mai bune practici pentru a
-                        asigura un serviciu de calitate superioară.
+                        Echipa noastră este formată din ingineri specializați, care utilizează
+                        echipamente moderne și software dedicat pentru a asigura
+                        <strong> precizie și calitate</strong> în fiecare proiect.
                     </p>
                     <p>
-                        Contactați-ne pentru a afla mai multe despre serviciile noastre și cum vă putem
-                        ajuta în nevoile dumneavoastră de transport și logistică.
+                        Oferim servicii de <em>cadastru și intabulare, planuri parcelare,
+                        trasare construcții, expertize tehnice</em> și alte lucrări conexe.
                     </p>
                     <p>
-                        La sfârșitul  anului 2024 am contabilizat un număr de 6453 autovehicule transportate.
-                        Tratam cu atenție fiecare comanda, căutând soluțiile cele mai rapide și eficiente
-                        pentru fiecare client.
+                        În ultimii ani am realizat sute de proiecte cu succes, atât în mediul
+                        urban cât și rural, fiind recunoscuți pentru seriozitate, promptitudine
+                        și atenție la detalii.
+                    </p>
+                    <p>
+                        Ne dorim să fim partenerul tău de încredere atunci când ai nevoie de
+                        lucrări de cadastru și topografie realizate corect și rapid.
                     </p>
                 </div>
                 <div className="firma-imagine">
-                    <img src={firmaImage} alt="Despre firma" />
+                    <img src={firmaImage} alt="Despre firma de cadastru" />
                 </div>
             </div>
+
             <Statistici />
             <Servicii />
             <FAQ />
