@@ -14,55 +14,54 @@ const Despre = () => {
             <div className="despre-section">
                 <div className="despre-text">
                     <p>
-                        Suntem o companie specializată în <strong>transport auto intern și internațional</strong>,
-                        oferind servicii rapide, sigure și profesioniste. Cu o flotă modernă și o echipă dedicată,
-                        asigurăm livrarea eficientă a vehiculelor în cele mai bune condiții.
+                        Suntem o companie autorizată în domeniul <strong>cadastrului, topografiei și
+                        măsurătorilor terestre</strong>, cu experiență solidă în lucrări pentru persoane
+                        fizice, juridice și instituții publice.
                     </p>
                     <p>
-                        Pe lângă transportul propriu-zis, oferim și <strong>servicii de intermediere transport,
-                        logistică și depozitare</strong>. Ne mândrim cu o abordare orientată către client, în care
-                        nevoile tale devin prioritatea noastră. Punem accent pe comunicare, transparență și
-                        adaptabilitate.
+                        Oferim servicii complete de <strong>întocmire documentații cadastrale, intabulări,
+                        măsurători topografice, trasări terenuri și expertize tehnice</strong>. Ne adaptăm
+                        fiecărui proiect, respectând normele și legislația în vigoare.
                     </p>
                     <p>
-                        <strong>La sfârșitul anului 2024</strong>, am contabilizat un număr impresionant de <strong>6.453
-                        autovehicule transportate</strong>. Fiecare comandă este tratată cu atenție, iar soluțiile
-                        propuse sunt mereu gândite pentru a fi <em>rapide, sigure și eficiente</em>.
+                        Cu o echipă de specialiști și aparatură modernă, garantăm <em>precizie, promptitudine
+                        și profesionalism</em>. Punem accent pe comunicare și transparență, astfel încât
+                        clienții noștri să primească soluții clare și eficiente.
                     </p>
                     <p>
-                        Colaborăm exclusiv cu parteneri de încredere și aplicăm cele mai bune practici din domeniul
-                        transportului și logisticii. Obiectivul nostru este simplu: <strong>satisfacția completă a
-                        clienților</strong> prin servicii de înaltă calitate, livrate cu promptitudine și
-                        profesionalism.
+                        Am finalizat cu succes <strong>sute de lucrări cadastrale și topografice</strong>,
+                        de la proiecte rezidențiale până la investiții complexe în domeniul imobiliar și
+                        infrastructură.
                     </p>
                     <p>
-                        Contactați-ne pentru a afla cum vă putem ajuta în nevoile dumneavoastră de transport și
-                        logistică. Suntem aici pentru a găsi cea mai bună soluție pentru fiecare client!
+                        Contactați-ne pentru a afla cum vă putem sprijini în proiectele dumneavoastră.
                     </p>
                 </div>
 
                 <div className="despre-image">
-                    <img src={sediuImg} alt="Sediu"/>
+                    <img src={sediuImg} alt="Sediul firmei de cadastru"/>
                 </div>
             </div>
+
             <Servicii/>
+
             <div className="despre-valori">
                 <h2>Valorile Noastre</h2>
                 <ul>
                     <li>✔️ Profesionalism și seriozitate</li>
-                    <li>✔️ Respect față de client</li>
-                    <li>✔️ Transparență și comunicare</li>
-                    <li>✔️ Flexibilitate și eficiență</li>
+                    <li>✔️ Respect față de client și legislație</li>
+                    <li>✔️ Transparență și corectitudine</li>
+                    <li>✔️ Promptitudine și eficiență</li>
                 </ul>
             </div>
 
             <div className="despre-valori">
                 <h2>Avantajele colaborării cu noi</h2>
                 <ul>
-                    <li>✔️ Comenzi intre 1 si 9 unitati</li>
-                    <li>✔️ Termene de incarcare intre 1 si 10 de zile</li>
-                    <li>✔️ Disponibilitate oriunde in Europa</li>
-                    <li>✔️ Preste 50 de subcontractori internationali</li>
+                    <li>✔️ Servicii complete de cadastru și topografie</li>
+                    <li>✔️ Documentații întocmite rapid și corect</li>
+                    <li>✔️ Utilizarea echipamentelor moderne de măsurare</li>
+                    <li>✔️ Experiență vastă în proiecte diverse</li>
                 </ul>
             </div>
 
@@ -73,17 +72,15 @@ const Despre = () => {
                         Pentru mai multe informații sau pentru a solicita o ofertă personalizată,
                         nu ezita să ne contactezi la numărul de telefon sau adresa de email afișate pe site.
                     </p>
-
                     <p>
-                        Suntem aici să te ajutăm cu orice întrebări sau nevoi legate de transportul auto.
+                        Suntem aici să te ajutăm cu orice întrebări sau proiecte legate de cadastru și măsurători.
                     </p>
-
-
                     <p>
                         Ne angajăm să răspundem prompt și să oferim soluții adaptate nevoilor tale.
                     </p>
                 </div>
             </div>
+
             <FAQ/>
             <ServicetCTA/>
             <MapSection/>
