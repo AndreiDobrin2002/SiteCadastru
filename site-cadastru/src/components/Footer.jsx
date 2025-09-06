@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import logo from '../assets/logo.png';
 import { FaFacebookF, FaWhatsapp } from 'react-icons/fa';
+import {NavLink} from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -21,12 +22,12 @@ const Footer = () => {
                 <div className="footer-column">
                     <h4>Harta site-ului</h4>
                     <ul className="footer-links">
-                        <li><a href="/">Acasă</a></li>
-                        <li><a href="/despre">Despre</a></li>
-                        <li><a href="/servicii">Servicii</a></li>
-                        <li><a href="/galerie">Galerie</a></li>
-                        <li><a href="/oferta">Ofertă</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><NavLink to="/">Acasă</NavLink></li>
+                        <li><NavLink to="/despre">Despre noi</NavLink></li>
+                        <li><NavLink to="/servicii">Servicii</NavLink></li>
+                        <li><NavLink to="/galerie">Galerie</NavLink></li>
+                        <li><NavLink to="/oferta">Ofertă</NavLink></li>
+                        <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                 </div>
 
