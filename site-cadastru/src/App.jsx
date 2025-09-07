@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar.jsx";
 import Acasa from "./pages/Acasa.jsx";
 import Despre from "./pages/Despre.jsx";
 import Servicii from "./pages/Servicii.jsx";
-import TransportAuto from "./pages/TransportAuto.jsx";
-import Intermedieri from "./pages/Intermedieri.jsx";
-import Logistica from "./pages/Logistica.jsx";
+import CadastruIntabulare from "./pages/CadastruIntabulare.jsx";
+import Masuratori from "./pages/Masuratori.jsx";
+import Expertize from "./pages/Expertize.jsx";
 import Contact from "./pages/Contact.jsx";
 import Galerie from './pages/Galerie.jsx';
 import Oferta from "./pages/Oferta.jsx";
@@ -23,9 +23,9 @@ function App() {
                     <Route path="/servicii" element={<Servicii />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/galerie" element={<Galerie />} />
-                    <Route path="/transport-auto" element={<TransportAuto />} />
-                    <Route path="/intermedieri-transport" element={<Intermedieri />} />
-                    <Route path="/logistica-depozitare" element={<Logistica />} />
+                    <Route path="/cadastru-intabulare" element={<CadastruIntabulare />} />
+                    <Route path="/masuratori-topografice" element={<Masuratori />} />
+                    <Route path="/expertize-tehnice" element={<Expertize />} />
                     <Route path="/oferta" element={<Oferta />} />
                 </Routes>
             </div>

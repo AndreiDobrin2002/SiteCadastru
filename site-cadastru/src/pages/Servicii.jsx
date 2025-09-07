@@ -5,42 +5,42 @@ import Footer from "../components/Footer.jsx";
 import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
 import Statistici from "../components/Statistici.jsx";
-import sediuImg from "../assets/serviciu3.jpg";
+import sediuImg from "../assets/firstpage_logomic.jpg"; // imagine despre birou / echipă
 
 const serviciiList = [
     {
-        icon: "🚛",
-        title: "Transport Auto Intern",
-        description: "Servicii rapide și sigure pe întreg teritoriul țării.",
-        link: "/transport-auto"
+        icon: "📐",
+        title: "Cadastru și Intabulare",
+        description: "Întocmirea documentațiilor cadastrale pentru persoane fizice și juridice.",
+        link: "/cadastru-intabulare"
     },
     {
-        icon: "🌍",
-        title: "Transport Internațional",
-        description: "Transport auto flexibil, rapid și disponibil oriunde în Europa.",
-        link: "/transport-auto"
+        icon: "🗺️",
+        title: "Măsurători Topografice",
+        description: "Ridicări topografice pentru construcții, planuri parcelare și documentații tehnice.",
+        link: "/masuratori-topografice"
     },
     {
-        icon: "📦",
-        title: "Logistică și Depozitare",
-        description: "Servicii complete de logistică și depozitare auto.",
-        link: "/logistica-depozitare"
+        icon: "🏗️",
+        title: "Trasare Construcții",
+        description: "Servicii de trasare pe teren pentru construcții civile și industriale.",
+        link: "/trasare-constructii"
+    },
+    {
+        icon: "📊",
+        title: "Expertize Tehnice",
+        description: "Analize și expertize tehnice realizate de ingineri autorizați.",
+        link: "/expertize-tehnice"
+    },
+    {
+        icon: "⚖️",
+        title: "Consultanță Juridică",
+        description: "Asistență în procesul de obținere a avizelor și autorizațiilor necesare.",
     },
     {
         icon: "🤝",
-        title: "Intermediere Transport",
-        description: "Intermediere transport și tranzacții auto, intern și internațional.",
-        link: "/intermedieri-transport"
-    },
-    {
-        icon: "🕒",
-        title: "Programări Flexibile",
-        description: "Ne adaptăm programului tău pentru a livra la timp.",
-    },
-    {
-        icon: "📞",
-        title: "Suport Clienți 24/7",
-        description: "Suntem disponibili oricând ai nevoie de noi.",
+        title: "Suport Clienți",
+        description: "Oferim răspunsuri rapide și clare pentru fiecare proiect.",
     },
 ];
 
@@ -73,21 +73,27 @@ const Servicii = () => {
                     );
                 })}
             </div>
+
             <ServicetCTA/>
+
             <div className="serviciu-section">
                 <div className="despre-text">
-                    <h1>Servicii eficiente</h1>
+                    <h1>Servicii profesionale de cadastru și topografie</h1>
                     <p>
-                        Experienta echipei noastre si colaborarea cu partenerii nostri ne permit sa realizam trasporturi
-                        interne sau internationale,
-                        de oriunde din Europa, cu timp de incarcare inre 1 si maxim 10 de zile, in functie de locatia de
-                        la care trebuie realizat transportul.
+                        Echipa noastră de ingineri autorizați oferă servicii complete în domeniul cadastrului și
+                        măsurătorilor topografice.
+                        Utilizăm echipamente moderne și software specializat pentru a asigura acuratețe și eficiență.
+                    </p>
+                    <p>
+                        Fie că este vorba de intabulări, ridicări topografice, planuri parcelare sau trasări de construcții,
+                        garantăm lucrări realizate la timp și conform legislației în vigoare.
                     </p>
                 </div>
                 <div className="despre-image">
-                    <img src={sediuImg} alt="Sediu"/>
+                    <img src={sediuImg} alt="Sediul firmei de cadastru" />
                 </div>
             </div>
+
             <Statistici/>
             <FAQ/>
             <Footer/>

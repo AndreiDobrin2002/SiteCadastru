@@ -4,7 +4,7 @@ import Footer from "../components/Footer.jsx";
 import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
 
-const TransportAuto = () => {
+const CadastruIntabulare = () => {
     return (
         <div className="despre-container">
             <h1 className="despre-title">Transport auto</h1>
@@ -88,4 +88,4 @@ const TransportAuto = () => {
     );
 };
 
-export default TransportAuto;
+export default CadastruIntabulare;

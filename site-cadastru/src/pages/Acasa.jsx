@@ -1,6 +1,4 @@
-import img1 from "../assets/firstpage_logomic.jpg";
-import imgMobile from "../assets/firstpage_telefon.png"; // imagine pentru telefon
-import firmaImage from "../assets/firma.jpg"; // imaginea despre firmă
+import firmaImage from "../assets/logo3.png"; // imaginea despre firmă
 import "./Acasa.css";
 import Statistici from "../components/Statistici.jsx";
 import Servicii from "../components/Servicii.jsx";

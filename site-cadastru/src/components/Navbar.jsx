@@ -48,9 +48,10 @@ const Navbar = () => {
                 <li className="dropdown">
                     <NavLink to="/servicii" onClick={closeMenu}>Servicii</NavLink>
                     <ul className="dropdown-menu">
-                        <li><NavLink to="/transport-auto" onClick={closeMenu}>Transport auto</NavLink></li>
-                        <li><NavLink to="/logistica-depozitare" onClick={closeMenu}>Logistică și Depozitare</NavLink></li>
-                        <li><NavLink to="/intermedieri-transport" onClick={closeMenu}>Intermediere Transport</NavLink></li>
+                        <li><NavLink to="/cadastru-intabulare" onClick={closeMenu}>Cadastru și Intabulare.
+                        </NavLink></li>
+                        <li><NavLink to="/masuratori-topografice" onClick={closeMenu}>Măsurători Topografice</NavLink></li>
+                        <li><NavLink to="/expertize-tehnice" onClick={closeMenu}>Expertize tehnice</NavLink></li>
                     </ul>
                 </li>
 

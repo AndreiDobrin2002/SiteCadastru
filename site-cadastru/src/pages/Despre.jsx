@@ -1,6 +1,6 @@
 import React from "react";
 import "./Despre.css";
-import sediuImg from "../assets/serviciu3.jpg"; // imaginea sediului (poți schimba)
+import sediuImg from "../assets/firstpage_logomare.png"; // imaginea sediului (poți schimba)
 import Footer from "../components/Footer.jsx";
 import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
