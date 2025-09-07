@@ -1,12 +1,5 @@
-import { useState, useEffect } from "react";
-import img1 from "../assets/img1.jpg";
-import img2 from "../assets/img2.jpg";
-import img3 from "../assets/img3.jpg";
-
-import icon1 from "../assets/iconTruck.png";
-import icon2 from "../assets/iconPeople.png";
-import icon3 from "../assets/warehouse.png";
-
+import img1 from "../assets/firstpage_logomic.jpg";
+import imgMobile from "../assets/firstpage_telefon.png"; // imagine pentru telefon
 import firmaImage from "../assets/firma.jpg"; // imaginea despre firmă
 import "./Acasa.css";
 import Statistici from "../components/Statistici.jsx";
@@ -16,51 +9,11 @@ import Footer from "../components/Footer.jsx";
 import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
 
-const images = [img1, img2, img3];
-
-const navItems = [
-    { icon: icon1, label: "CADASTRU & INTABULARE" },
-    { icon: icon2, label: "MĂSURĂTORI TOPOGRAFICE" },
-    { icon: icon3, label: "EXPERTIZE TEHNICE" },
-];
-
 export default function Acasa() {
-    const [currentImage, setCurrentImage] = useState(0);
-
-    const handleImageChange = (index) => {
-        setCurrentImage(index);
-    };
-
-    // Auto-play la fiecare 5 secunde
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentImage((prev) => (prev + 1) % images.length);
-        }, 5000);
-
-        return () => clearInterval(interval);
-    }, [currentImage]);
-
     return (
         <>
-            {/* Slideshow + bara servicii */}
-            <div className="acasa-container">
-                <div
-                    className="image-display"
-                    style={{ backgroundImage: `url(${images[currentImage]})` }}
-                />
-                <div className="bottom-navbar">
-                    {navItems.map((item, index) => (
-                        <button
-                            key={index}
-                            className={`nav-button ${currentImage === index ? "active" : ""}`}
-                            onClick={() => handleImageChange(index)}
-                        >
-                            <img src={item.icon} alt={item.label} className="new-icon-style" />
-                            <span>{item.label}</span>
-                        </button>
-                    ))}
-                </div>
-            </div>
+            {/* O singură secțiune pentru imagine */}
+            <div className="hero-section"></div>
 
             {/* Despre firmă */}
             <div className="firma-container">
