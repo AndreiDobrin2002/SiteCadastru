@@ -1,27 +1,27 @@
 import "./Servicii.css";
 import { Link } from "react-router-dom";
-import img1 from "../assets/serviciu1.jpg";
-import img2 from "../assets/serviciu2.jpg";
-import img3 from "../assets/serviciu3.jpg";
+import img1 from "../assets/logo.png";
+import img2 from "../assets/logo2.png";
+import img3 from "../assets/logo3.png";
 
 const servicii = [
     {
-        title: "TRANSPORT AUTO",
-        text: "Oferim o gamă variată de servicii de transport intern și internațional",
+        title: "Cadastru și Intabulare",
+        text: "Oferim o gamă variată de servicii de cadastru și Intabulare pentru persoane fizice și juridice.",
         img: img1,
-        link: "/transport-auto",
+        link: "/cadastru-intabulare",
     },
     {
-        title: "INTERMEDIERI TRANSPORT AUTO",
-        text: "Oferim clienților noștri servicii de cea mai bună calitate ca rezultat al experienței de peste 15 ani",
+        title: "Măsurători Topografice",
+        text: "Oferim clienților noștri servicii de măsurători topografice de cea mai bună calitate ca rezultat al experienței de peste 12 ani.",
         img: img2,
-        link: "/intermedieri-transport",
+        link: "/masuratori-topografice",
     },
     {
-        title: "LOGISTICĂ ȘI DEPOZITARE AUTO",
-        text: "Societatea noastră vă pune la dispoziție servicii de logistică și depozitare auto.",
+        title: "Expertize Tehnice",
+        text: "Societatea noastră vă pune la dispoziție servicii de expertize tehnice realizate de ingineri autorizați.",
         img: img3,
-        link: "/logistica-depozitare",
+        link: "/expertize-tehnice",
     },
 ];
 

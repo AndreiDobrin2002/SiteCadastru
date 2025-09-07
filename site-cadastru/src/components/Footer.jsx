@@ -44,7 +44,7 @@ const Footer = () => {
                 <p>&copy; {new Date().getFullYear()} Cirlioru Ionut PFA. Toate drepturile rezervate.</p>
                 <div className="social-icons">
                     <a
-                        href="https://www.facebook.com/profile.php?id=100064175078737&locale=ro_RO"
+                        href="https://www.facebook.com/cirlioru.ionut?locale=ro_RO"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="facebook-icon"
