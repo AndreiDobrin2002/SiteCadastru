@@ -3,52 +3,44 @@ import "./FAQ.css";
 
 const faqData = [
     {
-        question: "Care sunt costurile transportului unui autovehicul?",
+        question: "Ce este cadastrul și de ce am nevoie de el?",
         answer:
-            "Costul unui transport diferă în funcție de rută, dimensiunile autovehiculului și starea acestuia. " +
-            "De îndată ce primim cererea de transport, sunt examinate cele mai bune soluții privind prețul și termenul " +
-            "de livrare. Cele mai bune soluții vor fi comunicate clientului."
+            "Cadastrul reprezintă identificarea, măsurarea și înregistrarea terenurilor și construcțiilor într-un sistem unitar. Este necesar pentru intabulare, vânzare, moștenire, obținerea autorizațiilor de construire și alte tranzacții juridice."
     },
     {
-        question: "Ce tipuri de vehicule transportați?",
-        answer: "Transportăm o gamă variată de vehicule, inclusiv autoturisme, SUV-uri, utilitare ușoare și vehicule comerciale.",
-    },
-    {
-        question: "Oferiți transport internațional?",
-        answer: "Da, oferim servicii de transport auto internațional în majoritatea țărilor europene.",
-    },
-    {
-        question: "Care sunt metodele de plată acceptate?",
+        question: "Cât durează întocmirea unei documentații cadastrale?",
         answer:
-            "Acceptăm plata prin transfer bancar, numerar la livrare și alte metode agreate contractual."
+            "Durata variază în funcție de complexitatea lucrării și de suprafața imobilului. În general, o documentație de cadastru și intabulare poate dura între câteva zile și câteva săptămâni."
     },
     {
-        question: "Care este termenul de încărcare și descărcare?",
+        question: "Ce documente sunt necesare pentru cadastrare?",
         answer:
-            "Imediat ce primim o solicitare , un formular de comandă , echipa nostra va analiza cererea dumneavostra " +
-            "și vă va trimite o ofertă special creată pentru nevoile dumneavostra . În general, termenul de încărcare " +
-            "variază între 1 și 10 de zile, în funcție de disponibilitatea platformei și a rutei alese."
+            "Sunt necesare: actul de proprietate, extras de carte funciară (dacă există), actul de identitate al proprietarului și, după caz, planuri sau autorizații de construire. Echipa noastră vă poate ajuta să aflați lista exactă pentru situația dvs."
     },
     {
-        question: "Care este valoarea asigurării pe timpul transportului?",
+        question: "Oferiți și servicii de trasare pentru construcții?",
         answer:
-            "Toate autovehiculele transportate prin intermediul companiei Best Ride Express beneficiază pe perioada " +
-            "transportului de asigurare CMR în valoare de 1 200 000 EUR, atât ca transportator cât și ca,  casă de expediții."
+            "Da, asigurăm trasarea pe teren a construcțiilor conform proiectului autorizat, pentru clădiri civile, industriale sau lucrări de infrastructură."
     },
     {
-        question: "Ce documente sunt necesare pentru efectuarea transportului?",
+        question: "Pot face cadastru pentru un teren agricol?",
         answer:
-            "Este necesară o copie a actului de identitate, talonul vehiculului și eventual dovada de achiziție " +
-            "sau contractul de vânzare-cumpărare. Pentru ca echipa noastră să înceapă organizarea transportului pentru " +
-            "dumneavoastră, avem nevoie să ne trimiteți comanda de transport. La încărcare, personalul nostru calificat, " +
-            "va întocmi scrisoarea de transport  (CMR) și va înmâna un exemplar persoanei care va preda mașina ."
+            "Desigur. Realizăm planuri parcelare, măsurători pentru terenuri agricole și întocmim documentațiile necesare pentru intabulare sau comasare."
     },
     {
-        question: "Câte autovehicule se pot transporta simultan?",
+        question: "Ce costuri implică serviciile de cadastru?",
         answer:
-            "Fie că aveți un singur autovehicul ( 1 unitate ) sau loturi formate din (5/6 sau 8/9 unități ). " +
-            "Suntem aici să venim în întampinarea nevoilor dumneavostra . Dispecerii Best Ride Express, sunt gata " +
-            "să organizeze transportul autovehiculului dumneavoastră, în cel mai rapid, eficient și sigur mod."
+            "Costurile diferă în funcție de tipul lucrării (teren, apartament, casă, expertiză tehnică) și de complexitate. După analiza situației dvs., vă vom oferi o ofertă personalizată și transparentă."
+    },
+    {
+        question: "Sunteți autorizați ANCPI?",
+        answer:
+            "Da, firma noastră colaborează cu ingineri topografi autorizați de Agenția Națională de Cadastru și Publicitate Imobiliară (ANCPI)."
+    },
+    {
+        question: "Cum pot solicita o ofertă?",
+        answer:
+            "Puteți completa formularul de contact de pe site, ne puteți trimite un email sau ne puteți contacta telefonic. Vom răspunde rapid cu detalii și o estimare de preț."
     }
 ];
 
@@ -72,8 +64,8 @@ const FAQ = () => {
                         <div className="faq-question">
                             {item.question}
                             <span className={`arrow ${activeIndex === index ? "open" : ""}`}>
-                ▼
-              </span>
+                                ▼
+                            </span>
                         </div>
                         <div className="faq-answer-wrapper">
                             <div className="faq-answer">{item.answer}</div>
