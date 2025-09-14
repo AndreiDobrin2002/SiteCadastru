@@ -83,8 +83,12 @@ const Oferta = () => {
                     required
                 >
                     <option value="">Selectează serviciul *</option>
-                    <option value="Cadastru">Cadastru</option>
-                    <option value="Intabulare">Intabulare</option>
+                    <option value="Cadastru și Topografie Inginerească">Cadastru și Topografie Inginerească</option>
+                    <option value="Documentații Carte Funciară și Intabulare">Documentații Carte Funciară și Intabulare</option>
+                    <option value="Topografie, Geodezie și Cartografie">Topografie, Geodezie și Cartografie</option>
+                    <option value="Alipiri și Dezlipiri">Alipiri și Dezlipiri</option>
+                    <option value="Apartamentări">Apartamentări</option>
+                    <option value="Trasări">Trasări</option>
                 </select>
                 <input
                     type="text"
