@@ -10,38 +10,53 @@ import sediuImg from "../assets/firstpage_logomic.jpg"; // imagine despre birou 
 const serviciiList = [
     {
         icon: "📐",
-        title: "Cadastru și Intabulare",
-        description: "Întocmirea documentațiilor cadastrale pentru persoane fizice și juridice.",
-        link: "/cadastru-intabulare"
+        title: "Cadastru și Topografie Inginerească",
+        description: "Servicii complete de cadastru și măsurători topografice pentru proiecte civile și industriale.",
+        link: "/cadastru-topografie"
+    },
+    {
+        icon: "📜",
+        title: "Documentații Carte Funciară și Intabulare",
+        description: "Întocmim documentațiile necesare pentru înscrierea și actualizarea în cartea funciară.",
+        link: "/documentatii-intabulare"
     },
     {
         icon: "🗺️",
-        title: "Măsurători Topografice",
-        description: "Ridicări topografice pentru construcții, planuri parcelare și documentații tehnice.",
-        link: "/masuratori-topografice"
+        title: "Topografie",
+        description: "Ridicări topografice, planuri parcelare și planuri de situație detaliate.",
+        link: "/topografie"
+    },
+    {
+        icon: "🌍",
+        title: "Geodezie",
+        description: "Lucrări geodezice pentru proiecte complexe de infrastructură și dezvoltare urbană.",
+        link: "/geodezie"
+    },
+    {
+        icon: "🛰️",
+        title: "Cartografie",
+        description: "Realizarea planurilor și hărților digitale cu tehnologie GIS și GPS.",
+        link: "/cartografie"
+    },
+    {
+        icon: "➕➖",
+        title: "Dezlipiri și Alipiri",
+        description: "Întocmim documentații cadastrale pentru dezmembrarea sau comasarea imobilelor.",
+        link: "/dezlipiri-alipiri"
+    },
+    {
+        icon: "🏢",
+        title: "Apartamentări",
+        description: "Documentații pentru apartamentarea construcțiilor și înscrierea unităților locative.",
+        link: "/apartamentari"
     },
     {
         icon: "🏗️",
-        title: "Trasare Construcții",
-        description: "Servicii de trasare pe teren pentru construcții civile și industriale.",
-        link: "/trasare-constructii"
+        title: "Trasări",
+        description: "Trasarea pe teren a limitelor de proprietate și a construcțiilor.",
+        link: "/trasari"
     },
-    {
-        icon: "📊",
-        title: "Expertize Tehnice",
-        description: "Analize și expertize tehnice realizate de ingineri autorizați.",
-        link: "/expertize-tehnice"
-    },
-    {
-        icon: "⚖️",
-        title: "Consultanță Juridică",
-        description: "Asistență în procesul de obținere a avizelor și autorizațiilor necesare.",
-    },
-    {
-        icon: "🤝",
-        title: "Suport Clienți",
-        description: "Oferim răspunsuri rapide și clare pentru fiecare proiect.",
-    },
+    { icon: "🤝", title: "Suport Clienți", description: "Oferim răspunsuri rapide și clare pentru fiecare proiect.", },
 ];
 
 const Servicii = () => {
@@ -74,19 +89,19 @@ const Servicii = () => {
                 })}
             </div>
 
-            <ServicetCTA/>
+            <ServicetCTA />
 
             <div className="serviciu-section">
                 <div className="despre-text">
                     <h1>Servicii profesionale de cadastru și topografie</h1>
                     <p>
-                        Echipa noastră de ingineri autorizați oferă servicii complete în domeniul cadastrului și
-                        măsurătorilor topografice.
-                        Utilizăm echipamente moderne și software specializat pentru a asigura acuratețe și eficiență.
+                        Echipa noastră de ingineri autorizați oferă servicii complete în domeniul cadastrului,
+                        topografiei și geodeziei. Utilizăm echipamente moderne și software specializat pentru
+                        a asigura <strong>acuratețe și eficiență</strong>.
                     </p>
                     <p>
-                        Fie că este vorba de intabulări, ridicări topografice, planuri parcelare sau trasări de construcții,
-                        garantăm lucrări realizate la timp și conform legislației în vigoare.
+                        Indiferent dacă ai nevoie de intabulări, dezlipiri, apartamentări sau trasări pentru construcții,
+                        garantăm lucrări realizate <em>corect, rapid și în conformitate cu legislația</em>.
                     </p>
                 </div>
                 <div className="despre-image">
@@ -94,9 +109,9 @@ const Servicii = () => {
                 </div>
             </div>
 
-            <Statistici/>
-            <FAQ/>
-            <Footer/>
+            <Statistici />
+            <FAQ />
+            <Footer />
         </div>
     );
 };

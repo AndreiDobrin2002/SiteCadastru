@@ -6,22 +6,46 @@ import img3 from "../assets/logo3.png";
 
 const servicii = [
     {
-        title: "Cadastru și Intabulare",
-        text: "Oferim o gamă variată de servicii de cadastru și Intabulare pentru persoane fizice și juridice.",
+        title: "Cadastru și Topografie Inginerească",
+        text: "Realizăm lucrări de cadastru și topografie inginerească la standarde profesionale, pentru proiecte civile și industriale.",
         img: img1,
-        link: "/cadastru-intabulare",
+        link: "/cadastru-topografie",
     },
     {
-        title: "Măsurători Topografice",
-        text: "Oferim clienților noștri servicii de măsurători topografice de cea mai bună calitate ca rezultat al experienței de peste 12 ani.",
+        title: "Documentații Carte Funciară și Intabulare",
+        text: "Întocmim documentații pentru înscrierea și actualizarea imobilelor în cartea funciară și pentru intabulare.",
         img: img2,
-        link: "/masuratori-topografice",
+        link: "/documentatii-carte-funciara",
     },
     {
-        title: "Expertize Tehnice",
-        text: "Societatea noastră vă pune la dispoziție servicii de expertize tehnice realizate de ingineri autorizați.",
+        title: "Topografie și Geodezie",
+        text: "Oferim servicii complete de topografie și geodezie, folosind echipamente moderne și tehnologie GPS.",
         img: img3,
-        link: "/expertize-tehnice",
+        link: "/topografie-geodezie",
+    },
+    {
+        title: "Cartografie",
+        text: "Realizăm planuri cartografice detaliate pentru lucrări civile, industriale sau agricole.",
+        img: img1,
+        link: "/cartografie",
+    },
+    {
+        title: "Dezlipiri și Alipiri",
+        text: "Întocmim documentațiile necesare pentru dezlipirea sau alipirea terenurilor, conform normelor legale.",
+        img: img2,
+        link: "/dezlipiri-alipiri",
+    },
+    {
+        title: "Apartamentări și Reapartamentări",
+        text: "Oferim servicii de apartamentare și reapartamentare, cu documentații cadastrale complete.",
+        img: img3,
+        link: "/apartamentari",
+    },
+    {
+        title: "Trasări Construcții",
+        text: "Executăm trasări pentru construcții civile și industriale, respectând proiectele tehnice.",
+        img: img1,
+        link: "/trasari-constructii",
     },
 ];
 
@@ -32,8 +56,8 @@ export default function Servicii() {
                 <div className="underline" />
                 <h2>SERVICIILE NOASTRE</h2>
                 <p>
-                    Cu peste <strong>12 ani experiență</strong> în domeniu, echipa noastră
-                    vă poate oferi servicii de cea mai bună calitate precum
+                    Cu o echipă de <strong>specialiști autorizați</strong> și experiență
+                    vastă în domeniu, vă oferim servicii complete de cadastru, topografie și geodezie.
                 </p>
             </div>
 
@@ -44,7 +68,9 @@ export default function Servicii() {
                         <div className="serviciu-content">
                             <h3>{item.title}</h3>
                             <p>{item.text}</p>
-                            <Link to={item.link} className="read-more-link">Detalii →</Link>
+                            <Link to={item.link} className="read-more-link">
+                                Detalii →
+                            </Link>
                         </div>
                     </div>
                 ))}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Despre.css";
-import sediuImg from "../assets/firstpage_logomare.png"; // imaginea sediului (poți schimba)
+import sediuImg from "../assets/firstpage_logomare.png";
 import Footer from "../components/Footer.jsx";
 import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
@@ -11,40 +11,41 @@ const Despre = () => {
     return (
         <div className="despre-container">
             <h1 className="despre-title">Despre Noi</h1>
+
             <div className="despre-section">
                 <div className="despre-text">
                     <p>
-                        Suntem o companie autorizată în domeniul <strong>cadastrului, topografiei și
-                        măsurătorilor terestre</strong>, cu experiență solidă în lucrări pentru persoane
+                        Suntem o firmă autorizată în domeniul <strong>cadastrului, topografiei,
+                        geodeziei și cartografiei</strong>, cu experiență în lucrări pentru persoane
                         fizice, juridice și instituții publice.
                     </p>
                     <p>
-                        Oferim servicii complete de <strong>întocmire documentații cadastrale, intabulări,
-                        măsurători topografice, trasări terenuri și expertize tehnice</strong>. Ne adaptăm
-                        fiecărui proiect, respectând normele și legislația în vigoare.
+                        Oferim servicii complete: <strong>cadastru și intabulare, documentații pentru
+                        carte funciară, topografie inginerească, trasări, dezlipiri/alipiri și apartamentări</strong>.
+                        Respectăm legislația și asigurăm transparență în fiecare etapă a proiectului.
                     </p>
                     <p>
-                        Cu o echipă de specialiști și aparatură modernă, garantăm <em>precizie, promptitudine
-                        și profesionalism</em>. Punem accent pe comunicare și transparență, astfel încât
-                        clienții noștri să primească soluții clare și eficiente.
+                        Echipa noastră este formată din ingineri autorizați care utilizează <em>echipamente moderne
+                        și software specializat</em> pentru rezultate precise și rapide.
                     </p>
                     <p>
-                        Am finalizat cu succes <strong>sute de lucrări cadastrale și topografice</strong>,
-                        de la proiecte rezidențiale până la investiții complexe în domeniul imobiliar și
-                        infrastructură.
+                        Am finalizat cu succes <strong>numeroase proiecte cadastrale și topografice</strong>,
+                        de la lucrări rezidențiale la investiții de amploare în domeniul imobiliar și infrastructură.
                     </p>
                     <p>
-                        Contactați-ne pentru a afla cum vă putem sprijini în proiectele dumneavoastră.
+                        Ne dorim să fim partenerul tău de încredere pentru orice tip de lucrare cadastrală.
                     </p>
                 </div>
 
                 <div className="despre-image">
-                    <img src={sediuImg} alt="Sediul firmei de cadastru"/>
+                    <img src={sediuImg} alt="Sediul firmei de cadastru" />
                 </div>
             </div>
 
-            <Servicii/>
+            {/* Secțiunea servicii */}
+            <Servicii />
 
+            {/* Valorile companiei */}
             <div className="despre-valori">
                 <h2>Valorile Noastre</h2>
                 <ul>
@@ -55,36 +56,37 @@ const Despre = () => {
                 </ul>
             </div>
 
+            {/* Avantaje colaborare */}
             <div className="despre-valori">
-                <h2>Avantajele colaborării cu noi</h2>
+                <h2>De ce să lucrezi cu noi?</h2>
                 <ul>
-                    <li>✔️ Servicii complete de cadastru și topografie</li>
-                    <li>✔️ Documentații întocmite rapid și corect</li>
-                    <li>✔️ Utilizarea echipamentelor moderne de măsurare</li>
-                    <li>✔️ Experiență vastă în proiecte diverse</li>
+                    <li>✔️ Servicii integrate de cadastru, topografie și geodezie</li>
+                    <li>✔️ Documentații întocmite corect și la timp</li>
+                    <li>✔️ Tehnologie modernă pentru măsurători de înaltă precizie</li>
+                    <li>✔️ Experiență dovedită în proiecte diverse</li>
                 </ul>
             </div>
 
+            {/* Contact scurt */}
             <div className="despre-contact">
                 <h2>Contactează-ne</h2>
                 <div className="despre-contact-text">
                     <p>
-                        Pentru mai multe informații sau pentru a solicita o ofertă personalizată,
-                        nu ezita să ne contactezi la numărul de telefon sau adresa de email afișate pe site.
+                        Vrei să afli mai multe sau să soliciți o ofertă personalizată?
+                        Suntem aici să răspundem la toate întrebările tale.
                     </p>
                     <p>
-                        Suntem aici să te ajutăm cu orice întrebări sau proiecte legate de cadastru și măsurători.
-                    </p>
-                    <p>
-                        Ne angajăm să răspundem prompt și să oferim soluții adaptate nevoilor tale.
+                        Ne poți contacta direct prin telefon sau email, iar echipa noastră
+                        te va sprijini în cel mai scurt timp posibil.
                     </p>
                 </div>
             </div>
 
-            <FAQ/>
-            <ServicetCTA/>
-            <MapSection/>
-            <Footer/>
+            {/* FAQ + CTA + Hartă + Footer */}
+            <FAQ />
+            <ServicetCTA />
+            <MapSection />
+            <Footer />
         </div>
     );
 };

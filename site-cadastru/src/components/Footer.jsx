@@ -11,9 +11,9 @@ const Footer = () => {
 
                 {/* Coloana 1 - Logo și descriere */}
                 <div className="footer-column">
-                    <img src={logo} alt="Logo DejTrans" className="footer-logo"/>
+                    <img src={logo} alt="Logo Topyntcad" className="footer-logo"/>
                     <p className="footer-description">
-                        Cirlioru Ionut PFA este o companie cu peste 12 ani de experiență în cadastru și intabulări.
+                        Topyntcad True Srl este o companie cu peste 12 ani de experiență în cadastru și intabulări.
                         Oferim servicii de calitate în Vrancea, atât în mediul urban cât și în rural
                     </p>
                 </div>
@@ -34,14 +34,14 @@ const Footer = () => {
                 {/* Coloana 3 - Contact */}
                 <div className="footer-column">
                     <h4>Contact</h4>
-                    <p>📍 Strada Timotei Cipariu 4,<br/>Focșani 620004, România</p>
-                    <p>📞 <a href="tel:+40737553140">+40 737 553 140</a></p>
+                    <p>📍 Strada Leopoldina Bălănuță 35,<br/>Jariștea 627180, România</p>
+                    <p>📞 <a href="tel:+40 762 917 664">+40 762 917 664</a></p>
                     <p>✉️ <a href="mailto:andreidobrin12@gmail.com">andreidobrin12@gmail.com</a></p>
                 </div>
             </div>
 
             <div className="footer-bottom">
-                <p>&copy; {new Date().getFullYear()} Cirlioru Ionut PFA. Toate drepturile rezervate.</p>
+            <p>&copy; {new Date().getFullYear()} Topyntcad True Srl. Toate drepturile rezervate.</p>
                 <div className="social-icons">
                     <a
                         href="https://www.facebook.com/cirlioru.ionut?locale=ro_RO"
@@ -53,7 +53,7 @@ const Footer = () => {
                         <FaFacebookF/>
                     </a>
                     <a
-                        href="https://wa.me/40737553140"
+                        href="https://wa.me/40762917664"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="whatsapp-icon"

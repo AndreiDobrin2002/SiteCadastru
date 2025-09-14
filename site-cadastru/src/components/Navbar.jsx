@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../assets/logo2.png";
-import logoScrolled from "../assets/logo.png";
+import logo from "../assets/logo.png";
 import GoogleTranslate from "./GoogleTranslate.jsx";
 
 const Navbar = () => {
@@ -30,7 +29,7 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled ? "scrolled" : "transparent"}`}>
             <NavLink to="/" onClick={closeMenu}>
                 <img
-                    src={scrolled ? logoScrolled : logo}
+                    src={logo}
                     alt="Logo Firma"
                     className="logo"
                 />

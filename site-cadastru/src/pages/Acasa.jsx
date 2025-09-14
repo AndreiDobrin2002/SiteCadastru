@@ -10,7 +10,7 @@ import ServicetCTA from "../components/ServiceCTA.jsx";
 export default function Acasa() {
     return (
         <>
-            {/* O singură secțiune pentru imagine */}
+            {/* Secțiune imagine erou */}
             <div className="hero-section"></div>
 
             {/* Despre firmă */}
@@ -18,27 +18,32 @@ export default function Acasa() {
                 <div className="firma-text">
                     <h2>Despre firma noastră</h2>
                     <p>
-                        Suntem o companie autorizată în domeniul <strong>cadastrului și
-                        măsurătorilor topografice</strong>, oferind servicii profesionale
-                        pentru persoane fizice, companii și instituții publice.
+                        Suntem o companie autorizată în domeniul <strong>cadastrului, topografiei și geodeziei</strong>,
+                        oferind servicii profesionale pentru persoane fizice, companii și instituții publice.
                     </p>
                     <p>
-                        Echipa noastră este formată din ingineri specializați, care utilizează
-                        echipamente moderne și software dedicat pentru a asigura
-                        <strong> precizie și calitate</strong> în fiecare proiect.
+                        Echipa noastră este formată din <strong>ingineri specializați</strong>, care utilizează
+                        echipamente moderne și software de ultimă generație pentru a garanta
+                        precizie și calitate în fiecare proiect realizat.
                     </p>
                     <p>
-                        Oferim servicii de <em>cadastru și intabulare, planuri parcelare,
-                        trasare construcții, expertize tehnice</em> și alte lucrări conexe.
+                        Principalele noastre servicii includ:
+                    </p>
+                    <ul>
+                        <li>📍 Cadastru și topografie inginerească</li>
+                        <li>📄 Documentații pentru Carte Funciară și Intabulare</li>
+                        <li>🗺️ Topografie, Geodezie și Cartografie</li>
+                        <li>✂️ Dezlipiri și Alipiri de terenuri</li>
+                        <li>🏢 Apartamentări și Reapartamentări</li>
+                        <li>📐 Trasări pentru construcții și lucrări inginerești</li>
+                    </ul>
+                    <p>
+                        În ultimii ani am realizat numeroase proiecte cu succes, atât în mediul urban, cât și rural,
+                        fiind apreciați pentru <strong>seriozitate, promptitudine și atenție la detalii</strong>.
                     </p>
                     <p>
-                        În ultimii ani am realizat sute de proiecte cu succes, atât în mediul
-                        urban cât și rural, fiind recunoscuți pentru seriozitate, promptitudine
-                        și atenție la detalii.
-                    </p>
-                    <p>
-                        Ne dorim să fim partenerul tău de încredere atunci când ai nevoie de
-                        lucrări de cadastru și topografie realizate corect și rapid.
+                        Ne dorim să fim partenerul tău de încredere atunci când ai nevoie de lucrări de cadastru
+                        și topografie realizate corect și rapid.
                     </p>
                 </div>
                 <div className="firma-imagine">
@@ -46,6 +51,7 @@ export default function Acasa() {
                 </div>
             </div>
 
+            {/* Alte secțiuni */}
             <Statistici />
             <Servicii />
             <FAQ />
