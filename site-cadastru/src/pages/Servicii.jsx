@@ -18,31 +18,37 @@ const serviciiList = [
         icon: "📜",
         title: "Documentații Carte Funciară și Intabulare",
         description: "Întocmim documentațiile necesare pentru înscrierea și actualizarea în cartea funciară.",
-        link: "/documentatii-intabulare"
+        link: "/documentatii-carte-funciara"
     },
+    // {
+    //     icon: "🗺️",
+    //     title: "Topografie",
+    //     description: "Ridicări topografice, planuri parcelare și planuri de situație detaliate.",
+    //     link: "/topografie"
+    // },
+    // {
+    //     icon: "🌍",
+    //     title: "Geodezie",
+    //     description: "Lucrări geodezice pentru proiecte complexe de infrastructură și dezvoltare urbană.",
+    //     link: "/geodezie"
+    // },
+    // {
+    //     icon: "🛰️",
+    //     title: "Cartografie",
+    //     description: "Realizarea planurilor și hărților digitale cu tehnologie GIS și GPS.",
+    //     link: "/cartografie"
+    // },
     {
         icon: "🗺️",
-        title: "Topografie",
-        description: "Ridicări topografice, planuri parcelare și planuri de situație detaliate.",
-        link: "/topografie"
-    },
-    {
-        icon: "🌍",
-        title: "Geodezie",
-        description: "Lucrări geodezice pentru proiecte complexe de infrastructură și dezvoltare urbană.",
-        link: "/geodezie"
-    },
-    {
-        icon: "🛰️",
-        title: "Cartografie",
-        description: "Realizarea planurilor și hărților digitale cu tehnologie GIS și GPS.",
-        link: "/cartografie"
+        title: "Topografie, Geodezie și Cartografie",
+        description: "Oferim servicii complete de topografie, geodezie și cartografie, folosind echipamente moderne și tehnologie GPS, pentru lucrări civile, industriale sau agricole.",
+        link: "/topografie-geodezie-cartografie"
     },
     {
         icon: "➕➖",
-        title: "Dezlipiri și Alipiri",
+        title: "Alipiri și Dezlipiri",
         description: "Întocmim documentații cadastrale pentru dezmembrarea sau comasarea imobilelor.",
-        link: "/dezlipiri-alipiri"
+        link: "/alipiri-dezlipiri"
     },
     {
         icon: "🏢",

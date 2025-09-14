@@ -47,13 +47,14 @@ const Navbar = () => {
                 <li className="dropdown">
                     <NavLink to="/servicii" onClick={closeMenu}>Servicii</NavLink>
                     <ul className="dropdown-menu">
-                        <li><NavLink to="/cadastru-intabulare" onClick={closeMenu}>Cadastru și Intabulare.
-                        </NavLink></li>
-                        <li><NavLink to="/masuratori-topografice" onClick={closeMenu}>Măsurători Topografice</NavLink></li>
-                        <li><NavLink to="/expertize-tehnice" onClick={closeMenu}>Expertize tehnice</NavLink></li>
+                        <li><NavLink to="/cadastru-topografie" onClick={closeMenu}>Cadastru și Topografie Inginereascăe</NavLink></li>
+                        <li><NavLink to="/documentatii-carte-funciara" onClick={closeMenu}>Documentații Carte Funciară și Intabulare</NavLink></li>
+                        <li><NavLink to="/topografie-geodezie-cartografie" onClick={closeMenu}>Topografie, Geodezie și Cartografie</NavLink></li>
+                        <li><NavLink to="/alipiri-dezlipiri" onClick={closeMenu}>Alipiri și Dezlipiri</NavLink></li>
+                        <li><NavLink to="/apartamentari" onClick={closeMenu}>Apartamentări</NavLink></li>
+                        <li><NavLink to="/trasari" onClick={closeMenu}>Trasări</NavLink></li>
                     </ul>
                 </li>
-
                 <li><NavLink to="/galerie" onClick={closeMenu}>Galerie</NavLink></li>
                 <li><NavLink to="/oferta" onClick={closeMenu}>Ofertă</NavLink></li>
                 <li><NavLink to="/contact" onClick={closeMenu}>Contact</NavLink></li>

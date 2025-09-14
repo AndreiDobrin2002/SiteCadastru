@@ -5,7 +5,7 @@ import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
 import sediuImg from "../assets/img23.jpg";
 
-const Masuratori = () => {
+const ApartamentRi = () => {
     return (
         <div className="despre-container">
             <h1 className="despre-title">Intermedieri transport auto</h1>
@@ -70,4 +70,4 @@ const Masuratori = () => {
     );
 };
 
-export default Masuratori;
+export default ApartamentRi;

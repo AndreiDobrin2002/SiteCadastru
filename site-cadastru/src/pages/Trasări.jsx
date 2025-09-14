@@ -5,7 +5,7 @@ import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
 import sediuImg from "../assets/serviciu2.jpg";
 
-const Expertize = () => {
+const TrasRi = () => {
     return (
         <div className="despre-container">
             <h1 className="despre-title">Logistică și depozitare auto</h1>
@@ -67,4 +67,4 @@ const Expertize = () => {
     );
 };
 
-export default Expertize;
+export default TrasRi;

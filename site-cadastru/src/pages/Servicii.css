@@ -105,7 +105,15 @@
 
 .despre-image {
     flex: 1;
-    max-width: 500px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.despre-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .link-card {

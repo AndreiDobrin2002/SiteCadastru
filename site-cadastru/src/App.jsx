@@ -4,12 +4,16 @@ import Navbar from "./components/Navbar.jsx";
 import Acasa from "./pages/Acasa.jsx";
 import Despre from "./pages/Despre.jsx";
 import Servicii from "./pages/Servicii.jsx";
-import CadastruIntabulare from "./pages/CadastruIntabulare.jsx";
-import Masuratori from "./pages/Masuratori.jsx";
-import Expertize from "./pages/Expertize.jsx";
-import Contact from "./pages/Contact.jsx";
 import Galerie from './pages/Galerie.jsx';
+import Contact from "./pages/Contact.jsx";
 import Oferta from "./pages/Oferta.jsx";
+
+import CadastruTopografie from "./pages/CadastruTopografie";
+import DocumentatiiIntabulare from "./pages/DocumentatiiIntabulare";
+import AlipiriDezlipiri from "./pages/AlipiriDezlipiri.jsx";
+import Apartamentari from "./pages/Apartamentări.jsx";
+import Trasari from "./pages/Trasări.jsx";
+import TopologieGeodezieCartografie from "./pages/TopografieGeodezieCartografie.jsx";
 
 function App() {
     return (
@@ -21,12 +25,17 @@ function App() {
                     <Route path="/" element={<Acasa />} />
                     <Route path="/despre" element={<Despre />} />
                     <Route path="/servicii" element={<Servicii />} />
-                    <Route path="/contact" element={<Contact />} />
                     <Route path="/galerie" element={<Galerie />} />
-                    <Route path="/cadastru-intabulare" element={<CadastruIntabulare />} />
-                    <Route path="/masuratori-topografice" element={<Masuratori />} />
-                    <Route path="/expertize-tehnice" element={<Expertize />} />
+
+                    <Route path="/cadastru-topografie" element={<CadastruTopografie />} />
+                    <Route path="/documentatii-carte-funciara" element={<DocumentatiiIntabulare />} />
+                    <Route path="/alipiri-dezlipiri" element={<AlipiriDezlipiri />} />
+                    <Route path="/apartamentari" element={<Apartamentari />} />
+                    <Route path="/trasari" element={<Trasari />} />
+                    <Route path="/topografie-geodezie-cartografie" element={<TopologieGeodezieCartografie />} />
+
                     <Route path="/oferta" element={<Oferta />} />
+                    <Route path="/contact" element={<Contact />} />
                 </Routes>
             </div>
         </Router>
