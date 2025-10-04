@@ -3,71 +3,124 @@ import "./Despre.css";
 import Footer from "../components/Footer.jsx";
 import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
-import sediuImg from "../assets/img23.jpg";
+import sediuImg from "../assets/serviciu2.jpg";
 
-const ApartamentRi = () => {
+const Apartamentari = () => {
     return (
         <div className="despre-container">
-            <h1 className="despre-title">Intermedieri transport auto</h1>
+            <h1 className="despre-title">Apartamentări</h1>
+
             <div className="despre-section">
                 <div className="intermediere-text">
                     <p>
-                        Societatea noastră vă pune la dispoziție <strong>servicii complete de intermediere a transportului și a tranzacțiilor auto</strong>,
-                        atât la nivel național, cât și internațional. Indiferent dacă doriți să transportați un autoturism dintr-un oraș din
-                        România sau din orice alt colț al Europei, echipa noastră se ocupă de toate aspectele logistice și administrative pentru
-                        ca dumneavoastră să beneficiați de <strong>un proces simplu, sigur și eficient.</strong>
+                        Oferim servicii complete de <strong>apartamentare</strong> pentru clădiri noi sau existente —
+                        procesul prin care un imobil este <strong>împărțit în unități individuale</strong> (apartamente, spații comerciale, birouri)
+                        și înscris corespunzător în <strong>Cartea Funciară</strong>.
                     </p>
                     <p>
-                        Avem o rețea extinsă de parteneri în domeniul transportului auto, ceea ce ne permite să vă oferim soluții rapide, chiar și
-                        pentru comenzile cu un număr redus de unități sau din locații mai puțin accesibile. Gestionăm procesul de la preluarea comenzii
-                        până la livrarea autoturismului, oferindu-vă transparență și suport constant.
+                        Echipa noastră se ocupă de <strong>toate etapele necesare</strong> — de la măsurători și întocmirea documentației cadastrale
+                        până la depunerea actelor la <strong>Oficiul de Cadastru și Publicitate Imobiliară (OCPI)</strong>.
                     </p>
                     <p>
-                        Colaborăm exclusiv cu parteneri de încredere și aplicăm cele mai bune practici din domeniul
-                        transportului și logisticii. Obiectivul nostru este simplu: <strong>satisfacția completă a
-                        clienților</strong> prin servicii de înaltă calitate, livrate cu promptitudine și
-                        profesionalism.
+                        Asigurăm o <strong>procesare rapidă, corectă și completă</strong>, astfel încât fiecare apartament să fie intabulat legal
+                        și gata de vânzare sau închiriere.
                     </p>
                 </div>
 
                 <div className="intermediere-image">
-                    <img src={sediuImg} alt="Sediu"/>
+                    <img src={sediuImg} alt="Servicii de apartamentare și cadastru" />
                 </div>
             </div>
 
-            <div className="despre-valori">
-                <h2>Avantajele colaborării cu noi</h2>
+            <div className="despre-subsection">
+                <h2>🏢 Ce înseamnă apartamentarea?</h2>
+                <p>
+                    Apartamentarea reprezintă <strong>delimitarea și înregistrarea distinctă</strong> a fiecărei unități locative
+                    dintr-un imobil (apartament, garaj, spațiu comercial), astfel încât fiecare să aibă
+                    <strong>propriul număr cadastral și carte funciară individuală</strong>.
+                </p>
+                <p>
+                    Procesul este obligatoriu în cazul <strong>vânzării, donației sau moștenirii</strong> unui apartament
+                    dintr-un imobil colectiv și trebuie realizat conform normativelor ANCPI.
+                </p>
+            </div>
+
+            <div className="despre-subsection">
+                <h2>📋 Ce include serviciul nostru</h2>
                 <ul>
-                    <li>✔️ Comenzi intre 1 si 9 unitati</li>
-                    <li>✔️ Termene de incarcare intre 1 si 10 de zile</li>
-                    <li>✔️ Disponibilitate oriunde in Europa</li>
-                    <li>✔️ Preste 50 de subcontractori internationali</li>
+                    <p>✅ Măsurători topografice și identificarea exactă a fiecărei unități</p>
+                    <p>✅ Întocmirea planurilor de apartamentare și a releveelor</p>
+                    <p>✅ Calculul cotelor indivize și al părților comune</p>
+                    <p>✅ Redactarea documentației tehnice pentru OCPI</p>
+                    <p>✅ Depunerea și urmărirea dosarului până la obținerea numerelor cadastrale</p>
+                </ul>
+                <p>
+                    Toate lucrările sunt executate cu <strong>precizie milimetrică</strong> și în conformitate cu
+                    <strong> normele cadastrale actuale</strong>.
+                </p>
+            </div>
+
+            <div className="despre-subsection">
+                <h2>⚙️ Etapele apartamentării</h2>
+                <ul>
+                    <p>1️⃣ Măsurători topografice la fața locului</p>
+                    <p>2️⃣ Întocmirea releveelor și planurilor de apartamentare</p>
+                    <p>3️⃣ Calculul cotelor de proprietate comună</p>
+                    <p>4️⃣ Întocmirea documentației cadastrale</p>
+                    <p>5️⃣ Depunerea și finalizarea înregistrării la OCPI</p>
+                </ul>
+                <p>
+                    În funcție de complexitatea imobilului, procesul se finalizează în <strong>5–10 zile lucrătoare</strong>.
+                </p>
+            </div>
+
+            <div className="despre-subsection">
+                <h2>📐 Documente necesare</h2>
+                <ul>
+                    <p>📄 Actul de proprietate al imobilului</p>
+                    <p>📄 Autorizația de construire (pentru clădiri noi)</p>
+                    <p>📄 Planul de arhitectură și releveele existente</p>
+                    <p>📄 Cadastrul vechi (dacă există)</p>
+                    <p>📄 Copii după actele de identitate ale proprietarilor</p>
+                </ul>
+                <p>
+                    În cazul în care unele documente lipsesc, oferim <strong>consultanță gratuită</strong> pentru obținerea lor.
+                </p>
+            </div>
+
+            <div className="despre-valori">
+                <h2>🎯 De ce să alegi echipa noastră?</h2>
+                <ul>
+                    <li>✔️ Experiență vastă în apartamentări, dezmembrări și alipiri</li>
+                    <li>✔️ Documentații conforme și aprobate fără respingere</li>
+                    <li>✔️ Timp redus de execuție și comunicare constantă</li>
+                    <li>✔️ Consultanță juridică și tehnică pe tot parcursul procesului</li>
+                    <li>✔️ Prețuri transparente și oferte personalizate</li>
                 </ul>
             </div>
 
             <div className="despre-contact">
-                <h2>Contactează-ne</h2>
+                <h2>📞 Contactează-ne</h2>
                 <div className="despre-contact-text">
                     <p>
-                        Pentru mai multe informații sau pentru a solicita o ofertă personalizată,
-                        nu ezita să ne contactezi la numărul de telefon sau adresa de email afișate pe site.
+                        Ai nevoie de <strong>apartamentarea unui imobil</strong> sau dorești să
+                        <strong> intabulezi apartamentele existente</strong>?
                     </p>
-
                     <p>
-                        Suntem aici să te ajutăm cu orice întrebări sau nevoi legate de transportul auto.
+                        Trimite-ne detaliile proiectului tău, iar echipa noastră îți va oferi o ofertă personalizată
+                        și asistență completă pentru întocmirea documentației.
                     </p>
-
-
                     <p>
-                        Ne angajăm să răspundem prompt și să oferim soluții adaptate nevoilor tale.
+                        Ne poți contacta telefonic, prin email sau direct din formularul de contact al site-ului.
                     </p>
                 </div>
             </div>
-            <FAQ/>
-            <ServicetCTA/>
-            <Footer/>
+
+            <FAQ />
+            <ServicetCTA />
+            <Footer />
         </div>
     );
 };
 
-export default ApartamentRi;
+export default Apartamentari;

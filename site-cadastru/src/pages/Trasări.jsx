@@ -5,66 +5,114 @@ import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
 import sediuImg from "../assets/serviciu2.jpg";
 
-const TrasRi = () => {
+const Trasari = () => {
     return (
         <div className="despre-container">
-            <h1 className="despre-title">Logistică și depozitare auto</h1>
+            <h1 className="despre-title">Trasări Topografice și Verificări de Amplasament</h1>
+
             <div className="despre-section">
                 <div className="intermediere-text">
                     <p>
-                        Societatea noastră nu oferă doar servicii de transport auto, ci și un <strong>pachet complet de soluții logistice și de
-                        depozitare</strong>, adaptate nevoilor clienților care doresc un proces simplificat, sigur și rapid în gestionarea autoturismelor.
+                        Executăm <strong>trasări topografice precise</strong> pentru construcții civile,
+                        industriale, drumuri, rețele edilitare și lucrări inginerești.
                     </p>
                     <p>
-                        Indiferent dacă aveți nevoie de spațiu temporar de depozitare înainte de livrare sau de gestionarea transportului pentru
-                        mai multe unități, suntem pregătiți să vă oferim sprijinul necesar în fiecare etapă.
+                        Folosim <strong>echipamente moderne (stații totale, GNSS, drone)</strong> pentru a
+                        asigura o poziționare exactă a elementelor proiectate pe teren.
                     </p>
                     <p>
-                        Prin colaborarea cu experți și parteneri logistici din întreaga Europă, garantăm un serviciu complet,
-                        de la preluarea autoturismului până la livrarea acestuia în condiții optime, cu suport permanent și consiliere personalizată.
-                        Obiectivul nostru este simplu: <strong>satisfacția completă a clienților</strong> prin servicii
-                        de înaltă calitate, livrate cu promptitudine și profesionalism.
+                        Asigurăm <strong>colaborare directă cu arhitecți, ingineri și dezvoltatori</strong>,
+                        garantând conformitatea lucrărilor cu planurile de execuție și autorizațiile de construire.
                     </p>
                 </div>
 
                 <div className="intermediere-image">
-                    <img src={sediuImg} alt="Sediu"/>
+                    <img src={sediuImg} alt="Servicii de trasare topografică" />
                 </div>
             </div>
 
-            <div className="despre-valori">
-                <h2>Avantajele colaborării cu noi</h2>
+            <div className="despre-subsection">
+                <h2>📍 Ce este trasarea topografică?</h2>
+                <p>
+                    Trasarea reprezintă <strong>transpunerea în teren a proiectului tehnic</strong> —
+                    poziționarea exactă a clădirilor, drumurilor sau utilităților conform planurilor de execuție.
+                </p>
+                <p>
+                    Este o etapă esențială în orice lucrare de construcție, deoarece asigură
+                    amplasarea corectă a fiecărui element în raport cu coordonatele din proiect.
+                </p>
+            </div>
+
+            <div className="despre-subsection">
+                <h2>⚙️ Tipuri de lucrări efectuate</h2>
                 <ul>
-                    <li>✔️ Comenzi intre 1 si 9 unitati</li>
-                    <li>✔️ Termene de incarcare intre 1 si 10 de zile</li>
-                    <li>✔️ Disponibilitate oriunde in Europa</li>
-                    <li>✔️ Preste 50 de subcontractori internationali</li>
+                    <p>✅ Trasarea axelor clădirilor, drumurilor și halelor industriale</p>
+                    <p>✅ Poziționarea fundațiilor, stâlpilor, pereților și altor elemente structurale</p>
+                    <p>✅ Trasarea rețelelor de apă, canalizare, gaze și cabluri subterane</p>
+                    <p>✅ Marcarea limitelor de proprietate și a punctelor de detaliu</p>
+                    <p>✅ Verificarea amplasamentului construcțiilor existente față de proiect</p>
+                </ul>
+            </div>
+
+            <div className="despre-subsection">
+                <h2>🧭 Cum lucrăm</h2>
+                <p>
+                    Procesul de trasare se realizează cu <strong>precizie milimetrică</strong> utilizând echipamente
+                    moderne și softuri specializate. Fiecare punct trasat este verificat și documentat, pentru a
+                    asigura o execuție fidelă proiectului tehnic.
+                </p>
+                <p>
+                    Echipa noastră oferă <strong>rapoarte tehnice și schițe de verificare</strong>,
+                    utile în faza de recepție a lucrării și pentru arhivarea tehnică.
+                </p>
+            </div>
+
+            <div className="despre-subsection">
+                <h2>🏗️ Colaborări și asistență tehnică</h2>
+                <p>
+                    Colaborăm constant cu <strong>birouri de proiectare, firme de construcții și dezvoltatori imobiliari</strong>,
+                    oferind sprijin tehnic în toate etapele proiectului — de la fundație până la finalizarea construcției.
+                </p>
+                <p>
+                    Oferim și servicii de <strong>asistență topografică pe șantier</strong>,
+                    pentru verificarea în timp real a execuției.
+                </p>
+            </div>
+
+            <div className="despre-valori">
+                <h2>🎯 De ce să alegi echipa noastră?</h2>
+                <ul>
+                    <li>✔️ Precizie și promptitudine în fiecare lucrare</li>
+                    <li>✔️ Tehnologie modernă: stații totale, GPS RTK, drone</li>
+                    <li>✔️ Experiență vastă în construcții civile și industriale</li>
+                    <li>✔️ Asistență tehnică dedicată și comunicare constantă</li>
+                    <li>✔️ Respectarea normelor tehnice și a termenelor de execuție</li>
                 </ul>
             </div>
 
             <div className="despre-contact">
-                <h2>Contactează-ne</h2>
+                <h2>📞 Contactează-ne</h2>
                 <div className="despre-contact-text">
                     <p>
-                        Pentru mai multe informații sau pentru a solicita o ofertă personalizată,
-                        nu ezita să ne contactezi la numărul de telefon sau adresa de email afișate pe site.
+                        Ai nevoie de <strong>trasarea unei construcții</strong> sau de verificarea
+                        amplasamentului unei lucrări?
                     </p>
-
                     <p>
-                        Suntem aici să te ajutăm cu orice întrebări sau nevoi legate de transportul auto.
+                        Echipa noastră îți oferă servicii profesionale, rapide și precise, adaptate
+                        nevoilor fiecărui proiect.
                     </p>
-
-
                     <p>
-                        Ne angajăm să răspundem prompt și să oferim soluții adaptate nevoilor tale.
+                        Suntem disponibili prin <strong>telefon, email</strong> sau formularul de contact
+                        pentru a discuta detaliile tehnice și a stabili o programare.
                     </p>
                 </div>
             </div>
-            <FAQ/>
-            <ServicetCTA/>
-            <Footer/>
+
+            <FAQ />
+            <ServicetCTA />
+            <Footer />
         </div>
     );
 };
 
-export default TrasRi;
+export default Trasari;
