@@ -1,4 +1,4 @@
-import firmaImage from "../assets/logo3.png"; // imaginea despre firmă
+import firmaImage from "../assets/logo.png"; // imaginea despre firmă
 import "./Acasa.css";
 import Statistici from "../components/Statistici.jsx";
 import Servicii from "../components/Servicii.jsx";
@@ -30,12 +30,12 @@ export default function Acasa() {
                         Principalele noastre servicii includ:
                     </p>
                     <ul>
-                        <li>📍 Cadastru și topografie inginerească</li>
-                        <li>📄 Documentații pentru Carte Funciară și Intabulare</li>
-                        <li>🗺️ Topografie, Geodezie și Cartografie</li>
-                        <li>✂️ Dezlipiri și Alipiri de terenuri</li>
-                        <li>🏢 Apartamentări și Reapartamentări</li>
-                        <li>📐 Trasări pentru construcții și lucrări inginerești</li>
+                        <p>📍 Cadastru și topografie inginerească</p>
+                        <p>📄 Documentații pentru Carte Funciară și Intabulare</p>
+                        <p>🗺️ Topografie, Geodezie și Cartografie</p>
+                        <p>✂️ Dezlipiri și Alipiri de terenuri</p>
+                        <p>🏢 Apartamentări și Reapartamentări</p>
+                        <p>📐 Trasări pentru construcții și lucrări inginerești</p>
                     </ul>
                     <p>
                         În ultimii ani am realizat numeroase proiecte cu succes, atât în mediul urban, cât și rural,

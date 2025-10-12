@@ -58,18 +58,25 @@ const Despre = () => {
 
             {/* Avantaje colaborare */}
             <div className="despre-valori">
-                <h2>De ce să lucrezi cu noi?</h2>
+                <h2>🎯 De ce să alegi echipa noastră?</h2>
                 <ul>
-                    <li>✔️ Servicii integrate de cadastru, topografie și geodezie</li>
-                    <li>✔️ Documentații întocmite corect și la timp</li>
-                    <li>✔️ Tehnologie modernă pentru măsurători de înaltă precizie</li>
-                    <li>✔️ Experiență dovedită în proiecte diverse</li>
+                    <li>✔️ Servicii integrate de <strong>cadastru, topografie și geodezie</strong></li>
+                    <li>✔️ <strong>Experiență vastă</strong> în apartamentări, dezmembrări și alipiri</li>
+                    <li>✔️ <strong>Documentații conforme și aprobate</strong> fără respingere</li>
+                    <li>✔️ <strong>Tehnologie modernă</strong>: stații totale, GPS RTK, drone și software profesional
+                    </li>
+                    <li>✔️ <strong>Măsurători rapide și precise</strong>, conforme normelor ANCPI</li>
+                    <li>✔️ <strong>Personal autorizat</strong> și cu experiență în proiecte complexe</li>
+                    <li>✔️ <strong>Consultanță tehnică și juridică completă</strong> pe tot parcursul proiectului</li>
+                    <li>✔️ <strong>Respectarea termenelor</strong> și a standardelor legale</li>
+                    <li>✔️ <strong>Transparență totală</strong> și comunicare constantă cu clientul</li>
+                    <li>✔️ <strong>Prețuri corecte</strong> și oferte personalizate în funcție de proiect</li>
                 </ul>
             </div>
 
             {/* Contact scurt */}
             <div className="despre-contact">
-                <h2>Contactează-ne</h2>
+                <h2>📞 Contactează-ne</h2>
                 <div className="despre-contact-text">
                     <p>
                         Vrei să afli mai multe sau să soliciți o ofertă personalizată?
@@ -83,10 +90,10 @@ const Despre = () => {
             </div>
 
             {/* FAQ + CTA + Hartă + Footer */}
-            <FAQ />
-            <ServicetCTA />
-            <MapSection />
-            <Footer />
+            <FAQ/>
+            <ServicetCTA/>
+            <MapSection/>
+            <Footer/>
         </div>
     );
 };
