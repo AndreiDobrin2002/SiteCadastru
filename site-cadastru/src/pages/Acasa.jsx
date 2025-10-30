@@ -1,4 +1,4 @@
-import firmaImage from "../assets/logo.png"; // imaginea despre firmă
+import firmaImage from "../assets/img18.jpg"; // imaginea despre firmă
 import "./Acasa.css";
 import Statistici from "../components/Statistici.jsx";
 import Servicii from "../components/Servicii.jsx";
