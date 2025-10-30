@@ -5,7 +5,7 @@ import Footer from "../components/Footer.jsx";
 import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
 import Statistici from "../components/Statistici.jsx";
-import sediuImg from "../assets/firstpage_logomic.jpg"; // imagine despre birou / echipă
+import sediuImg from "../assets/img12.jpg"; // imagine despre birou / echipă
 
 const serviciiList = [
     {

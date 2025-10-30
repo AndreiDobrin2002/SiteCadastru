@@ -3,7 +3,7 @@ import "./Despre.css";
 import Footer from "../components/Footer.jsx";
 import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
-import sediuImg from "../assets/serviciu2.jpg";
+import sediuImg from "../assets/img11.jpg";
 
 const DocumentatiiIntabulare = () => {
     return (

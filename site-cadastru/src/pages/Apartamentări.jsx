@@ -3,7 +3,7 @@ import "./Despre.css";
 import Footer from "../components/Footer.jsx";
 import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
-import sediuImg from "../assets/serviciu2.jpg";
+import sediuImg from "../assets/img6.jpg";
 
 const Apartamentari = () => {
     return (
@@ -36,8 +36,7 @@ const Apartamentari = () => {
                 <h2>🏢 Ce înseamnă apartamentarea?</h2>
                 <p>
                     Apartamentarea reprezintă <strong>delimitarea și înregistrarea distinctă</strong> a fiecărei unități locative
-                    dintr-un imobil (apartament, garaj, spațiu comercial), astfel încât fiecare să aibă
-                    <strong>propriul număr cadastral și carte funciară individuală</strong>.
+                    dintr-un imobil (apartament, garaj, spațiu comercial), astfel încât fiecare să aibă <strong>propriul număr cadastral și carte funciară individuală</strong>.
                 </p>
                 <p>
                     Procesul este obligatoriu în cazul <strong>vânzării, donației sau moștenirii</strong> unui apartament

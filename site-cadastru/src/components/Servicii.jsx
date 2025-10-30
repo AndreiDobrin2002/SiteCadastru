@@ -1,26 +1,29 @@
 import "./Servicii.css";
 import { Link } from "react-router-dom";
-import img1 from "../assets/logo.png";
-import img2 from "../assets/logo2.png";
-import img3 from "../assets/logo3.png";
+import cadastru from "../assets/img1.jpg";
+import intabulare from "../assets/img11.jpg";
+import topografie from "../assets/img3.jpg";
+import alipiri from "../assets/img9.jpg";
+import apartamentari from "../assets/img7.jpg";
+import trasari from "../assets/img6.jpg";
 
 const servicii = [
     {
         title: "Cadastru și Topografie Inginerească",
         text: "Realizăm lucrări de cadastru și topografie inginerească la standarde profesionale, pentru proiecte civile și industriale.",
-        img: img1,
+        img: cadastru,
         link: "/cadastru-topografie",
     },
     {
         title: "Documentații Carte Funciară și Intabulare",
         text: "Întocmim documentații pentru înscrierea și actualizarea imobilelor în cartea funciară și pentru intabulare.",
-        img: img2,
+        img: intabulare,
         link: "/documentatii-carte-funciara",
     },
     {
         title: "Topografie, Geodezie și Cartografie",
         text: "Oferim servicii complete de topografie, geodezie și cartografie, folosind echipamente moderne și tehnologie GPS, pentru lucrări civile, industriale sau agricole.",
-        img: img3,
+        img: topografie,
         link: "/topografie-geodezie-cartografie",
     },
     // {
@@ -32,19 +35,19 @@ const servicii = [
     {
         title: "Alipiri și Dezlipiri",
         text: "Întocmim documentațiile necesare pentru alipirea sau dezlipirea terenurilor, conform normelor legale.",
-        img: img2,
+        img: alipiri,
         link: "/alipiri-dezlipiri",
     },
     {
         title: "Apartamentări",
-        text: "Oferim servicii de apartamentare și reapartamentare, cu documentații cadastrale complete.",
-        img: img3,
+        text: "Oferim servicii de apartamentare, cu documentații cadastrale complete.",
+        img: trasari,
         link: "/apartamentari",
     },
     {
         title: "Trasări",
         text: "Executăm trasări pentru construcții civile și industriale, respectând proiectele tehnice.",
-        img: img1,
+        img: apartamentari,
         link: "/trasari",
     },
 ];

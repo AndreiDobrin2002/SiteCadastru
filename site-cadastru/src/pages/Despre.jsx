@@ -1,6 +1,6 @@
 import React from "react";
 import "./Despre.css";
-import sediuImg from "../assets/firstpage_logomare.png";
+import sediuImg from "../assets/img2.jpg";
 import Footer from "../components/Footer.jsx";
 import FAQ from "../components/FAQ.jsx";
 import ServicetCTA from "../components/ServiceCTA.jsx";
