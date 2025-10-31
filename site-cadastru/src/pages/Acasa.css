@@ -13,16 +13,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     padding: 4rem 2rem;
     background-color: #f8f9fa;
     color: #1a1a1a;
-    gap: 2rem;
+    gap: 3rem;
     flex-wrap: wrap;
 }
 
 .firma-text {
     flex: 1;
     min-width: 300px;
+    max-width: 1000px;
+    text-align: left;
 }
 
 .firma-text h2 {
@@ -38,6 +41,7 @@
 
 .firma-imagine {
     flex: 1;
+    max-width: 1000px;
     min-width: 300px;
     text-align: center;
 }
@@ -49,6 +53,19 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* 🔹 Video container */
+.firma-video-container {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.firma-video {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
 
 @media (max-width: 768px) {
     .bottom-navbar {

@@ -1,4 +1,5 @@
 import firmaImage from "../assets/img18.jpg"; // imaginea despre firmă
+import firmaVideo from "../assets/video.mp4";
 import "./Acasa.css";
 import Statistici from "../components/Statistici.jsx";
 import Servicii from "../components/Servicii.jsx";
@@ -15,6 +16,10 @@ export default function Acasa() {
 
             {/* Despre firmă */}
             <div className="firma-container">
+                <div className="firma-imagine">
+                    <img src={firmaImage} alt="Despre firma de cadastru"/>
+                </div>
+
                 <div className="firma-text">
                     <h2>Despre firma noastră</h2>
                     <p>
@@ -46,18 +51,26 @@ export default function Acasa() {
                         și topografie realizate corect și rapid.
                     </p>
                 </div>
-                <div className="firma-imagine">
-                    <img src={firmaImage} alt="Despre firma de cadastru" />
+
+                <div className="firma-video-container">
+                    <video
+                        src={firmaVideo}
+                        controls
+                        autoPlay
+                        muted
+                        loop
+                        className="firma-video"
+                    />
                 </div>
             </div>
 
             {/* Alte secțiuni */}
-            <Statistici />
-            <Servicii />
-            <FAQ />
-            <ServicetCTA />
-            <MapSection />
-            <Footer />
+            <Statistici/>
+            <Servicii/>
+            <FAQ/>
+            <ServicetCTA/>
+            <MapSection/>
+            <Footer/>
         </>
     );
 }
