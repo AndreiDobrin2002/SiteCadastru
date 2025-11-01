@@ -44,17 +44,25 @@ const Navbar = () => {
             <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
                 <li><NavLink to="/" onClick={closeMenu}>Acasă</NavLink></li>
                 <li><NavLink to="/despre" onClick={closeMenu}>Despre noi</NavLink></li>
+
                 <li className="dropdown">
-                    <NavLink to="/servicii" onClick={closeMenu}>Servicii</NavLink>
+                    <div className="dropdown-header">
+                        <NavLink to="/servicii" onClick={closeMenu}>Servicii</NavLink>
+                        <span className="arrow"></span>
+                    </div>
                     <ul className="dropdown-menu">
-                        <li><NavLink to="/cadastru-topografie" onClick={closeMenu}>Cadastru și Topografie Inginereascăe</NavLink></li>
-                        <li><NavLink to="/documentatii-carte-funciara" onClick={closeMenu}>Documentații Carte Funciară și Intabulare</NavLink></li>
-                        <li><NavLink to="/topografie-geodezie-cartografie" onClick={closeMenu}>Topografie, Geodezie și Cartografie</NavLink></li>
+                        <li><NavLink to="/cadastru-topografie" onClick={closeMenu}>Cadastru și Topografie
+                            Inginerească</NavLink></li>
+                        <li><NavLink to="/documentatii-carte-funciara" onClick={closeMenu}>Documentații Carte Funciară
+                            și Intabulare</NavLink></li>
+                        <li><NavLink to="/topografie-geodezie-cartografie" onClick={closeMenu}>Topografie, Geodezie și
+                            Cartografie</NavLink></li>
                         <li><NavLink to="/alipiri-dezlipiri" onClick={closeMenu}>Alipiri și Dezlipiri</NavLink></li>
                         <li><NavLink to="/apartamentari" onClick={closeMenu}>Apartamentări</NavLink></li>
                         <li><NavLink to="/trasari" onClick={closeMenu}>Trasări</NavLink></li>
                     </ul>
                 </li>
+
                 <li><NavLink to="/galerie" onClick={closeMenu}>Galerie</NavLink></li>
                 <li><NavLink to="/oferta" onClick={closeMenu}>Ofertă</NavLink></li>
                 <li><NavLink to="/contact" onClick={closeMenu}>Contact</NavLink></li>

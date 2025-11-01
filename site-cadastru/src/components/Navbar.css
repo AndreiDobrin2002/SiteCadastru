@@ -97,14 +97,30 @@
 
     .nav-links.active {
         display: flex;
-        max-height: 400px;
+        max-height: 80vh; /* 🔹 creștem limita */
+        overflow-y: auto; /* 🔹 scroll dacă depășește ecranul */
     }
 
     .nav-links li {
         width: 100%;
         padding: 0.5rem 0;
     }
+
+    /* 🔹 dropdown-ul pe mobil */
+    .dropdown-menu {
+        position: static; /* nu mai e absolut, curge în listă */
+        box-shadow: none;
+        background-color: #168716;
+        display: none;
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    .dropdown.open .dropdown-menu {
+        display: block;
+    }
 }
+
 
 /* Dropdown - desktop */
 .dropdown {
@@ -149,4 +165,42 @@
 .nav-links li a.active {
     border-bottom: 3px solid #b6942f;
 }
+
+
+/* 🔹 pentru mobil - când meniul e activ */
+@media (max-width: 900px) {
+    /* 🔹 container pentru link + săgeată */
+    .dropdown-header {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        cursor: pointer;
+    }
+
+    /* 🔹 stil pentru săgeată */
+    .dropdown-header .arrow {
+        width: 7px;
+        height: 7px;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+        transform: rotate(-45deg);
+        transition: transform 0.3s ease;
+    }
+
+    /* 🔹 animare când dropdownul e vizibil (desktop hover) */
+    .dropdown:hover .arrow {
+        transform: rotate(135deg);
+    }
+
+    .dropdown-header {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .dropdown.open .arrow {
+        transform: rotate(135deg);
+    }
+}
+
+
 
